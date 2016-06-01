@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Order</title>
+  </head>
+  <body>
+    <h1>Order form</h1>
+    <div class="container">
+      <form id="name">
+        <div class="form-group">
+          <label for="firstName">First name</label>
+          <input id="firstName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last name</label>
+          <input id="lastName" class="form-control" type="text">
+        </div>
+      </form>
+
+      <form id="address">
+        <div class="form-group">
+          <label for="streetAddress">Street address</label>
+          <input id="streetAddress" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="zipCode">Zip code</label>
+          <input id="zipCode" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="state">State</label>
+          <input id="state" class="form-control" type="text">
+        </div>
+        <button id="placeOrder" type="submit" class="btn">Submit your order</button>
+      </form>
+      <div id="output">
+      </div>
+    </div>
+  </body>
+</html>
